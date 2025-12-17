@@ -14,8 +14,7 @@ data/
 *.ipynb
 
 # notebooks
-notebooks/togo_eda.ipynb
-notebooks/sierraleone_eda.ipynb
+
 
 # IDE
 .vscode/
