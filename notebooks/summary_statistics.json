@@ -1,0 +1,53 @@
+{
+    "Benin": {
+        "GHI": {
+            "mean": 241.96,
+            "median": 1.8,
+            "std": 330.1
+        },
+        "DNI": {
+            "mean": 167.44,
+            "median": 0.0,
+            "std": 261.55
+        },
+        "DHI": {
+            "mean": 116.99,
+            "median": 1.6,
+            "std": 157.46
+        }
+    },
+    "SierraLeone": {
+        "GHI": {
+            "mean": 230.96,
+            "median": 2.3,
+            "std": 320.68
+        },
+        "DNI": {
+            "mean": 150.5,
+            "median": 0.0,
+            "std": 250.92
+        },
+        "DHI": {
+            "mean": 116.76,
+            "median": 2.7,
+            "std": 157.07
+        }
+    },
+    "Togo": {
+        "GHI": {
+            "mean": 231.72,
+            "median": 2.1,
+            "std": 321.69
+        },
+        "DNI": {
+            "mean": 151.26,
+            "median": 0.0,
+            "std": 250.96
+        },
+        "DHI": {
+            "mean": 116.44,
+            "median": 2.5,
+            "std": 156.52
+        }
+    }
+}
