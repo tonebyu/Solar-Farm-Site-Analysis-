@@ -11,9 +11,8 @@ data/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
-# notebooks
+
 
 
 # IDE
