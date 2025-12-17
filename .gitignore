@@ -1,17 +1,104 @@
-# Python
+# ==============================
+# Python & Virtual Environment
+# ==============================
 __pycache__/
-*.pyc
-.venv/
-venv/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Data files
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# ==============================
+# Operating System Files (Windows)
+# ==============================
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# ==============================
+# Data & Output Files
+# ==============================
+# Raw and processed data
 data/
 *.csv
 *.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.sqlite3
 
-# Jupyter
+# Serialized models
+models/
+*.pkl
+*.pickle
+*.joblib
+*.model
+
+# Output files
+output/
+logs/
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# Jupyter & Notebooks
+# ==============================
 .ipynb_checkpoints/
-*.ipynb
+*.ipynb_checkpoints
 
 # notebooks
 notebooks/togo_eda.ipynb
@@ -19,7 +106,97 @@ notebooks/sierraleone_eda.ipynb
 
 # IDE
 .vscode/
+# Jupyter Notebook auto-save files
+*/*.ipynb.auto-save.*
+*.ipynb.auto-save.*
 
-# OS
+# Jupyter config
+.jupyter/
+
+# VS Code Jupyter
+.history/
+
+# ==============================
+# IDE & Editor Files
+# ==============================
+# VS Code
+.vs/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sublime Text
+*.sublime-*
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ==============================
+# Python Testing & Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ==============================
+# Environment & Secrets
+# ==============================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+secrets.yaml
+credentials.json
+*.key
+*.pem
+config.yaml
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/
+
+# ==============================
+# OS General
+# ==============================
 .DS_Store
-Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+# ==============================
+# Project Specific
+# ==============================
+# Large model files (if any)
+*.bin
+*.pt
+*.onnx
+
+# Temporary analysis files
+tmp/
+temp/
+
+# Downloaded datasets
+downloads/
+external/
+
+# ==============================
+# Git & Version Control
+# ==============================
+# Git internal files
+.git-*
+*.orig
