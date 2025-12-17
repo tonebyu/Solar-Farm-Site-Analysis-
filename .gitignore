@@ -100,7 +100,7 @@ logs/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# notebooks
+
 
 
 # IDE
