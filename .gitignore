@@ -101,8 +101,7 @@ logs/
 *.ipynb_checkpoints
 
 # notebooks
-notebooks/togo_eda.ipynb
-notebooks/sierraleone_eda.ipynb
+
 
 # IDE
 .vscode/
