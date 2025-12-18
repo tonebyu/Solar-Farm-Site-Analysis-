@@ -9,6 +9,10 @@ data/
 *.csv
 *.xlsx
 
+dashboard/data/
+*.csv
+*.xlsx
+
 # Jupyter
 .ipynb_checkpoints/
 
