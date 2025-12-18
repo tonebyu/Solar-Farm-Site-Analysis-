@@ -80,6 +80,11 @@ data/
 *.sqlite
 *.sqlite3
 
+dashboard/data/
+*.csv
+*.xlsx
+
+# Jupyter
 # Serialized models
 models/
 *.pkl
